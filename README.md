@@ -1,2 +1,2 @@
 # FarmIo
-Farm Management Desktop App - CSE200
+Farm Informations & Operations - A Farm Management Desktop App - CSE200
