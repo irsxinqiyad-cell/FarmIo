@@ -26,9 +26,9 @@ def open_dashboard(root, username="admin"):
     sidebar.pack_propagate(False)
 
     # Logo
-    tk.Label(sidebar, text="🌿 FarmIo", font=("Arial", 15, "bold"),
+    tk.Label(sidebar, text="🌿FarmIo", font=("Arial", 15, "bold"),
              bg=SIDEBAR_BG, fg="white").pack(pady=(20, 2))
-    tk.Label(sidebar, text="Farm Operations", font=("Arial", 9),
+    tk.Label(sidebar, text="Farm Informations & Operations", font=("Arial", 9),
              bg=SIDEBAR_BG, fg="#95d5b2").pack(pady=(0, 16))
     ttk.Separator(sidebar, orient="horizontal").pack(fill="x", padx=10)
 
