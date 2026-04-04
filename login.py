@@ -17,7 +17,7 @@ def open_login(root):
     # Logo
     tk.Label(frame, text="🌿", font=("Arial", 36), bg="#f8f4e8").pack()
     tk.Label(frame, text="FarmIo", font=("Arial", 22, "bold"), bg="#f8f4e8", fg="#1b4332").pack()
-    tk.Label(frame, text="Farm Operations Management", font=("Arial", 10), bg="#f8f4e8", fg="#555").pack(pady=(0, 20))
+    tk.Label(frame, text="Farm Informations and Operations", font=("Arial", 10), bg="#f8f4e8", fg="#555").pack(pady=(0, 20))
 
     # Username
     tk.Label(frame, text="USERNAME", font=("Arial", 9, "bold"), bg="#f8f4e8", fg="#555").pack(anchor="w")
